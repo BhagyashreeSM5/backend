@@ -1,0 +1,232 @@
+﻿On branch main
+No commands done.
+Next commands to do (2 remaining commands):
+   pick e38ea54 Add backend files
+   pick 938800d Ignore sensitive files
+  (use "git rebase --edit-todo" to view and edit)
+You are currently editing a commit while rebasing branch 'main' on '3dd46fc'.
+  (use "git commit --amend" to amend the current commit)
+  (use "git rebase --continue" once you are satisfied with your changes)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .dockerignore
+	new file:   .gitignore
+	new file:   Dockerfile
+	new file:   __pycache__/main.cpython-311.pyc
+	new file:   chroma_db/028b2fd6-5c36-4cfe-bcb5-be47820ccf28/data_level0.bin
+	new file:   chroma_db/028b2fd6-5c36-4cfe-bcb5-be47820ccf28/header.bin
+	new file:   chroma_db/028b2fd6-5c36-4cfe-bcb5-be47820ccf28/length.bin
+	new file:   chroma_db/028b2fd6-5c36-4cfe-bcb5-be47820ccf28/link_lists.bin
+	new file:   chroma_db/0c9bec39-8d87-4ae4-9791-34446b462329/header.bin
+	new file:   chroma_db/0c9bec39-8d87-4ae4-9791-34446b462329/length.bin
+	new file:   chroma_db/0c9bec39-8d87-4ae4-9791-34446b462329/link_lists.bin
+	new file:   chroma_db/14275042-02de-45a3-b7d5-2f66d85d83b2/data_level0.bin
+	new file:   chroma_db/14275042-02de-45a3-b7d5-2f66d85d83b2/header.bin
+	new file:   chroma_db/14275042-02de-45a3-b7d5-2f66d85d83b2/length.bin
+	new file:   chroma_db/14275042-02de-45a3-b7d5-2f66d85d83b2/link_lists.bin
+	new file:   chroma_db/1715a7d7-493f-489e-a788-d6fc61851af8/data_level0.bin
+	new file:   chroma_db/1715a7d7-493f-489e-a788-d6fc61851af8/header.bin
+	new file:   chroma_db/1715a7d7-493f-489e-a788-d6fc61851af8/length.bin
+	new file:   chroma_db/1715a7d7-493f-489e-a788-d6fc61851af8/link_lists.bin
+	new file:   chroma_db/1b82e85d-ab2e-49e6-9e11-09c3bc01e03f/data_level0.bin
+	new file:   chroma_db/1b82e85d-ab2e-49e6-9e11-09c3bc01e03f/header.bin
+	new file:   chroma_db/1b82e85d-ab2e-49e6-9e11-09c3bc01e03f/length.bin
+	new file:   chroma_db/1b82e85d-ab2e-49e6-9e11-09c3bc01e03f/link_lists.bin
+	new file:   chroma_db/1bcad719-192a-412d-8b83-e78ee5ef72bf/data_level0.bin
+	new file:   chroma_db/1bcad719-192a-412d-8b83-e78ee5ef72bf/header.bin
+	new file:   chroma_db/1bcad719-192a-412d-8b83-e78ee5ef72bf/length.bin
+	new file:   chroma_db/1bcad719-192a-412d-8b83-e78ee5ef72bf/link_lists.bin
+	new file:   chroma_db/1d4aa39b-26aa-4b28-8b2e-8ea3fec2161d/data_level0.bin
+	new file:   chroma_db/1d4aa39b-26aa-4b28-8b2e-8ea3fec2161d/header.bin
+	new file:   chroma_db/1d4aa39b-26aa-4b28-8b2e-8ea3fec2161d/length.bin
+	new file:   chroma_db/1d4aa39b-26aa-4b28-8b2e-8ea3fec2161d/link_lists.bin
+	new file:   chroma_db/23e79a9e-7138-490a-a0ff-544c99566ae9/data_level0.bin
+	new file:   chroma_db/23e79a9e-7138-490a-a0ff-544c99566ae9/header.bin
+	new file:   chroma_db/23e79a9e-7138-490a-a0ff-544c99566ae9/length.bin
+	new file:   chroma_db/23e79a9e-7138-490a-a0ff-544c99566ae9/link_lists.bin
+	new file:   chroma_db/3062b54e-4b69-42cc-bc6a-1d231ff63d46/data_level0.bin
+	new file:   chroma_db/3062b54e-4b69-42cc-bc6a-1d231ff63d46/header.bin
+	new file:   chroma_db/3062b54e-4b69-42cc-bc6a-1d231ff63d46/length.bin
+	new file:   chroma_db/3062b54e-4b69-42cc-bc6a-1d231ff63d46/link_lists.bin
+	new file:   chroma_db/351b0767-f52c-4274-915e-fb031b36fa49/data_level0.bin
+	new file:   chroma_db/351b0767-f52c-4274-915e-fb031b36fa49/header.bin
+	new file:   chroma_db/351b0767-f52c-4274-915e-fb031b36fa49/length.bin
+	new file:   chroma_db/351b0767-f52c-4274-915e-fb031b36fa49/link_lists.bin
+	new file:   chroma_db/4af2e182-c72d-45a6-9983-a2bd9a041116/data_level0.bin
+	new file:   chroma_db/4af2e182-c72d-45a6-9983-a2bd9a041116/header.bin
+	new file:   chroma_db/4af2e182-c72d-45a6-9983-a2bd9a041116/length.bin
+	new file:   chroma_db/4af2e182-c72d-45a6-9983-a2bd9a041116/link_lists.bin
+	new file:   chroma_db/4ed87064-00a9-4bac-a2c9-de7813ad85ad/data_level0.bin
+	new file:   chroma_db/4ed87064-00a9-4bac-a2c9-de7813ad85ad/header.bin
+	new file:   chroma_db/4ed87064-00a9-4bac-a2c9-de7813ad85ad/length.bin
+	new file:   chroma_db/4ed87064-00a9-4bac-a2c9-de7813ad85ad/link_lists.bin
+	new file:   chroma_db/4f85b0e1-70b3-45b1-a5cd-8be26c9ff434/data_level0.bin
+	new file:   chroma_db/4f85b0e1-70b3-45b1-a5cd-8be26c9ff434/header.bin
+	new file:   chroma_db/4f85b0e1-70b3-45b1-a5cd-8be26c9ff434/length.bin
+	new file:   chroma_db/4f85b0e1-70b3-45b1-a5cd-8be26c9ff434/link_lists.bin
+	new file:   chroma_db/5cf32418-f9a9-4871-8669-792682d3144f/data_level0.bin
+	new file:   chroma_db/5cf32418-f9a9-4871-8669-792682d3144f/header.bin
+	new file:   chroma_db/5cf32418-f9a9-4871-8669-792682d3144f/length.bin
+	new file:   chroma_db/5cf32418-f9a9-4871-8669-792682d3144f/link_lists.bin
+	new file:   chroma_db/7094b13a-8c57-4c1e-9fa0-6f659147ba39/data_level0.bin
+	new file:   chroma_db/7094b13a-8c57-4c1e-9fa0-6f659147ba39/header.bin
+	new file:   chroma_db/7094b13a-8c57-4c1e-9fa0-6f659147ba39/length.bin
+	new file:   chroma_db/7094b13a-8c57-4c1e-9fa0-6f659147ba39/link_lists.bin
+	new file:   chroma_db/7118894e-fed4-492b-bb41-d1a43716d6be/data_level0.bin
+	new file:   chroma_db/7118894e-fed4-492b-bb41-d1a43716d6be/header.bin
+	new file:   chroma_db/7118894e-fed4-492b-bb41-d1a43716d6be/length.bin
+	new file:   chroma_db/7118894e-fed4-492b-bb41-d1a43716d6be/link_lists.bin
+	new file:   chroma_db/74e8efac-980d-4818-8018-cda28498a457/data_level0.bin
+	new file:   chroma_db/74e8efac-980d-4818-8018-cda28498a457/header.bin
+	new file:   chroma_db/74e8efac-980d-4818-8018-cda28498a457/length.bin
+	new file:   chroma_db/74e8efac-980d-4818-8018-cda28498a457/link_lists.bin
+	new file:   chroma_db/7b85349f-ee9d-41f4-8d5b-198a027894df/data_level0.bin
+	new file:   chroma_db/7b85349f-ee9d-41f4-8d5b-198a027894df/header.bin
+	new file:   chroma_db/7b85349f-ee9d-41f4-8d5b-198a027894df/length.bin
+	new file:   chroma_db/7b85349f-ee9d-41f4-8d5b-198a027894df/link_lists.bin
+	new file:   chroma_db/820f40eb-b4f1-451a-b1e7-a403ec07baad/data_level0.bin
+	new file:   chroma_db/820f40eb-b4f1-451a-b1e7-a403ec07baad/header.bin
+	new file:   chroma_db/820f40eb-b4f1-451a-b1e7-a403ec07baad/length.bin
+	new file:   chroma_db/820f40eb-b4f1-451a-b1e7-a403ec07baad/link_lists.bin
+	new file:   chroma_db/85eb80dc-7f85-431c-b03e-7a89e3788802/data_level0.bin
+	new file:   chroma_db/85eb80dc-7f85-431c-b03e-7a89e3788802/header.bin
+	new file:   chroma_db/85eb80dc-7f85-431c-b03e-7a89e3788802/length.bin
+	new file:   chroma_db/85eb80dc-7f85-431c-b03e-7a89e3788802/link_lists.bin
+	new file:   chroma_db/88412aee-f423-4188-acc9-5b538ea9c208/data_level0.bin
+	new file:   chroma_db/88412aee-f423-4188-acc9-5b538ea9c208/header.bin
+	new file:   chroma_db/88412aee-f423-4188-acc9-5b538ea9c208/length.bin
+	new file:   chroma_db/88412aee-f423-4188-acc9-5b538ea9c208/link_lists.bin
+	new file:   chroma_db/8d651895-8a92-4217-a02b-ae5d69b3302e/data_level0.bin
+	new file:   chroma_db/8d651895-8a92-4217-a02b-ae5d69b3302e/header.bin
+	new file:   chroma_db/8d651895-8a92-4217-a02b-ae5d69b3302e/length.bin
+	new file:   chroma_db/8d651895-8a92-4217-a02b-ae5d69b3302e/link_lists.bin
+	new file:   chroma_db/97296a53-c00f-4364-80ee-9a5e21995da4/data_level0.bin
+	new file:   chroma_db/97296a53-c00f-4364-80ee-9a5e21995da4/header.bin
+	new file:   chroma_db/97296a53-c00f-4364-80ee-9a5e21995da4/length.bin
+	new file:   chroma_db/97296a53-c00f-4364-80ee-9a5e21995da4/link_lists.bin
+	new file:   chroma_db/986bac09-e331-48ea-ba4f-00d3726f29c3/data_level0.bin
+	new file:   chroma_db/986bac09-e331-48ea-ba4f-00d3726f29c3/header.bin
+	new file:   chroma_db/986bac09-e331-48ea-ba4f-00d3726f29c3/length.bin
+	new file:   chroma_db/986bac09-e331-48ea-ba4f-00d3726f29c3/link_lists.bin
+	new file:   chroma_db/a3180e0c-ba84-4354-b28f-49e1747ef8bf/data_level0.bin
+	new file:   chroma_db/a3180e0c-ba84-4354-b28f-49e1747ef8bf/header.bin
+	new file:   chroma_db/a3180e0c-ba84-4354-b28f-49e1747ef8bf/length.bin
+	new file:   chroma_db/a3180e0c-ba84-4354-b28f-49e1747ef8bf/link_lists.bin
+	new file:   chroma_db/a6dbeaad-716f-4ad5-971d-8eefe09ee7ea/data_level0.bin
+	new file:   chroma_db/a6dbeaad-716f-4ad5-971d-8eefe09ee7ea/header.bin
+	new file:   chroma_db/a6dbeaad-716f-4ad5-971d-8eefe09ee7ea/length.bin
+	new file:   chroma_db/a6dbeaad-716f-4ad5-971d-8eefe09ee7ea/link_lists.bin
+	new file:   chroma_db/a8d056fd-26ef-4e53-9626-eec335131664/data_level0.bin
+	new file:   chroma_db/a8d056fd-26ef-4e53-9626-eec335131664/header.bin
+	new file:   chroma_db/a8d056fd-26ef-4e53-9626-eec335131664/length.bin
+	new file:   chroma_db/a8d056fd-26ef-4e53-9626-eec335131664/link_lists.bin
+	new file:   chroma_db/ac8e04e2-04f8-4b95-87ad-22be0569e543/data_level0.bin
+	new file:   chroma_db/ac8e04e2-04f8-4b95-87ad-22be0569e543/header.bin
+	new file:   chroma_db/ac8e04e2-04f8-4b95-87ad-22be0569e543/length.bin
+	new file:   chroma_db/ac8e04e2-04f8-4b95-87ad-22be0569e543/link_lists.bin
+	new file:   chroma_db/aface2d0-ec1e-404f-8efd-742b1e0c2bf0/data_level0.bin
+	new file:   chroma_db/aface2d0-ec1e-404f-8efd-742b1e0c2bf0/header.bin
+	new file:   chroma_db/aface2d0-ec1e-404f-8efd-742b1e0c2bf0/length.bin
+	new file:   chroma_db/aface2d0-ec1e-404f-8efd-742b1e0c2bf0/link_lists.bin
+	new file:   chroma_db/b5c8e535-2794-4b63-b598-24b6bce2c788/data_level0.bin
+	new file:   chroma_db/b5c8e535-2794-4b63-b598-24b6bce2c788/header.bin
+	new file:   chroma_db/b5c8e535-2794-4b63-b598-24b6bce2c788/length.bin
+	new file:   chroma_db/b5c8e535-2794-4b63-b598-24b6bce2c788/link_lists.bin
+	new file:   chroma_db/b754a716-f0e0-48e5-8e0c-113df6762650/data_level0.bin
+	new file:   chroma_db/b754a716-f0e0-48e5-8e0c-113df6762650/header.bin
+	new file:   chroma_db/b754a716-f0e0-48e5-8e0c-113df6762650/length.bin
+	new file:   chroma_db/b754a716-f0e0-48e5-8e0c-113df6762650/link_lists.bin
+	new file:   chroma_db/c1d516bc-55f3-4484-9ff2-f6a026840f7a/data_level0.bin
+	new file:   chroma_db/c1d516bc-55f3-4484-9ff2-f6a026840f7a/header.bin
+	new file:   chroma_db/c1d516bc-55f3-4484-9ff2-f6a026840f7a/length.bin
+	new file:   chroma_db/c1d516bc-55f3-4484-9ff2-f6a026840f7a/link_lists.bin
+	new file:   chroma_db/c5caef32-88bd-44d4-b6f3-3d5c9b990b3d/data_level0.bin
+	new file:   chroma_db/c5caef32-88bd-44d4-b6f3-3d5c9b990b3d/header.bin
+	new file:   chroma_db/c5caef32-88bd-44d4-b6f3-3d5c9b990b3d/length.bin
+	new file:   chroma_db/c5caef32-88bd-44d4-b6f3-3d5c9b990b3d/link_lists.bin
+	new file:   chroma_db/ca1d9f05-d3dc-49c6-aaac-e47470d0f0c7/data_level0.bin
+	new file:   chroma_db/ca1d9f05-d3dc-49c6-aaac-e47470d0f0c7/header.bin
+	new file:   chroma_db/ca1d9f05-d3dc-49c6-aaac-e47470d0f0c7/length.bin
+	new file:   chroma_db/ca1d9f05-d3dc-49c6-aaac-e47470d0f0c7/link_lists.bin
+	new file:   chroma_db/chroma.sqlite3
+	new file:   chroma_db/d09e502d-91e2-48d9-a665-fc668ec4450c/data_level0.bin
+	new file:   chroma_db/d09e502d-91e2-48d9-a665-fc668ec4450c/header.bin
+	new file:   chroma_db/d09e502d-91e2-48d9-a665-fc668ec4450c/length.bin
+	new file:   chroma_db/d09e502d-91e2-48d9-a665-fc668ec4450c/link_lists.bin
+	new file:   chroma_db/d186d3a4-e171-4362-b9ea-32d7260331a8/data_level0.bin
+	new file:   chroma_db/d186d3a4-e171-4362-b9ea-32d7260331a8/header.bin
+	new file:   chroma_db/d186d3a4-e171-4362-b9ea-32d7260331a8/length.bin
+	new file:   chroma_db/d186d3a4-e171-4362-b9ea-32d7260331a8/link_lists.bin
+	new file:   chroma_db/d2180882-4042-4a92-9dcd-b0c26b80ea5b/data_level0.bin
+	new file:   chroma_db/d2180882-4042-4a92-9dcd-b0c26b80ea5b/header.bin
+	new file:   chroma_db/d2180882-4042-4a92-9dcd-b0c26b80ea5b/length.bin
+	new file:   chroma_db/d2180882-4042-4a92-9dcd-b0c26b80ea5b/link_lists.bin
+	new file:   chroma_db/d2212dae-e50c-41cd-b71a-9990059b1a35/data_level0.bin
+	new file:   chroma_db/d2212dae-e50c-41cd-b71a-9990059b1a35/header.bin
+	new file:   chroma_db/d2212dae-e50c-41cd-b71a-9990059b1a35/length.bin
+	new file:   chroma_db/d2212dae-e50c-41cd-b71a-9990059b1a35/link_lists.bin
+	new file:   chroma_db/d8c36634-11c3-47a7-b8af-919a06b25e02/data_level0.bin
+	new file:   chroma_db/d8c36634-11c3-47a7-b8af-919a06b25e02/header.bin
+	new file:   chroma_db/d8c36634-11c3-47a7-b8af-919a06b25e02/length.bin
+	new file:   chroma_db/d8c36634-11c3-47a7-b8af-919a06b25e02/link_lists.bin
+	new file:   chroma_db/e0cc8f1a-1aa6-4d74-9147-9b425d5b6aa9/data_level0.bin
+	new file:   chroma_db/e0cc8f1a-1aa6-4d74-9147-9b425d5b6aa9/header.bin
+	new file:   chroma_db/e0cc8f1a-1aa6-4d74-9147-9b425d5b6aa9/length.bin
+	new file:   chroma_db/e0cc8f1a-1aa6-4d74-9147-9b425d5b6aa9/link_lists.bin
+	new file:   chroma_db/e4a5cbfe-be09-469c-9fce-8a47ee9b7437/data_level0.bin
+	new file:   chroma_db/e4a5cbfe-be09-469c-9fce-8a47ee9b7437/header.bin
+	new file:   chroma_db/e4a5cbfe-be09-469c-9fce-8a47ee9b7437/length.bin
+	new file:   chroma_db/e4a5cbfe-be09-469c-9fce-8a47ee9b7437/link_lists.bin
+	new file:   chroma_db/e694d363-23c2-4c27-bd2b-809f6957507c/data_level0.bin
+	new file:   chroma_db/e694d363-23c2-4c27-bd2b-809f6957507c/header.bin
+	new file:   chroma_db/e694d363-23c2-4c27-bd2b-809f6957507c/length.bin
+	new file:   chroma_db/e694d363-23c2-4c27-bd2b-809f6957507c/link_lists.bin
+	new file:   chroma_db/ef6be391-d2ba-47b3-87a4-ad3762cddf00/data_level0.bin
+	new file:   chroma_db/ef6be391-d2ba-47b3-87a4-ad3762cddf00/header.bin
+	new file:   chroma_db/ef6be391-d2ba-47b3-87a4-ad3762cddf00/length.bin
+	new file:   chroma_db/ef6be391-d2ba-47b3-87a4-ad3762cddf00/link_lists.bin
+	new file:   chroma_db/f0e81e53-cf11-42a0-8650-2aeb011cad89/data_level0.bin
+	new file:   chroma_db/f0e81e53-cf11-42a0-8650-2aeb011cad89/header.bin
+	new file:   chroma_db/f0e81e53-cf11-42a0-8650-2aeb011cad89/length.bin
+	new file:   chroma_db/f0e81e53-cf11-42a0-8650-2aeb011cad89/link_lists.bin
+	new file:   chroma_db/f778d18f-af95-4fda-aa41-93619e4111a5/data_level0.bin
+	new file:   chroma_db/f778d18f-af95-4fda-aa41-93619e4111a5/header.bin
+	new file:   chroma_db/f778d18f-af95-4fda-aa41-93619e4111a5/length.bin
+	new file:   chroma_db/f778d18f-af95-4fda-aa41-93619e4111a5/link_lists.bin
+	new file:   chroma_db/fea69c4f-a02d-4f1e-b2c9-79df2a533af1/data_level0.bin
+	new file:   chroma_db/fea69c4f-a02d-4f1e-b2c9-79df2a533af1/header.bin
+	new file:   chroma_db/fea69c4f-a02d-4f1e-b2c9-79df2a533af1/length.bin
+	new file:   chroma_db/fea69c4f-a02d-4f1e-b2c9-79df2a533af1/link_lists.bin
+	new file:   code_parsers/__init__.py
+	new file:   code_parsers/__pycache__/__init__.cpython-311.pyc
+	new file:   code_parsers/__pycache__/code_parser.cpython-311.pyc
+	new file:   code_parsers/code_parser.py
+	new file:   list_models.py
+	new file:   main.py
+	new file:   package-lock.json
+	new file:   rag/__init__.py
+	new file:   rag/__pycache__/__init__.cpython-311.pyc
+	new file:   rag/__pycache__/rag_engine.cpython-311.pyc
+	new file:   rag/rag_engine.py
+	new file:   railway.json
+	new file:   requirements.txt
+	new file:   test_parser.py
+	new file:   test_rag.py
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	deleted:    .dockerignore
+	deleted:    .gitignore
+	deleted:    Dockerfile
+	deleted:    __pycache__/main.cpython-311.pyc
+	deleted:    chroma_db/028b2fd6-5c36-4cfe-bcb5-be47820ccf28/data_level0.bin
+	deleted:    serviceAccount.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.env
+	git_status.txt
+	git_status_utf8.txt
+

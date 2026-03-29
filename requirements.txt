@@ -1,0 +1,24 @@
+# Core web framework
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.6
+starlette==0.41.3
+
+# Firebase
+firebase-admin==6.6.0
+
+# Code parsing (AST)
+tree-sitter==0.21.3
+tree-sitter-python==0.21.0
+tree-sitter-javascript==0.21.4
+tree-sitter-java==0.21.0
+
+# RAG / Vector DB
+chromadb==0.5.23
+
+# AI / API calls
+requests==2.32.3
+
+# Environment variables
+python-dotenv==1.0.1
